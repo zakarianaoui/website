@@ -57,7 +57,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-traefik-v2-as-a-reve
 
 ### How to use Git
 
-- Wait for link PP
+- [Documentation](https://www.notion.so/Guide-d-utilisation-Git-4a9f8b1b4efe49ef90175ce983d2e2fe?pvs=4)
 
 ### NextJS
 
