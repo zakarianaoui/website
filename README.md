@@ -1,10 +1,6 @@
 # IDeA
 
 <p align="center">
-  <img alt="bobbyhrlogo" src="https://user-images.githubusercontent.com/78478805/229528159-ee8aea43-5620-48cb-986f-26ef55ac11f1.png">
-</p>
-
-<p align="center">
   <a href='https://www.ut-capitole.fr/'><img alt='UT1 Capitole' src='https://img.shields.io/badge/-UT1%20Capitole-red'/></a>
   <img alt="Licence" src="https://img.shields.io/badge/License-GPLv3-blue.svg"/>
   <img alt="Contributors" src="https://badgen.net/github/contributors/idea-ut1/bobbyhr"/>
