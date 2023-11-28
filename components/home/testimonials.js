@@ -5,11 +5,29 @@ import cgr from "@/public/image/projects/cgr.png";
 import tfc from "@/public/image/projects/tfc.png";
 import fou from "@/public/image/projects/puy_du_fou.svg";
 
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+import Slider from "react-slick";
+
 const Testimonials  = () => {
+
+  const settings = {
+    dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        pauseOnDotsHover: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        cssEase: 'linear'
+  };
+
   return (
-    <div className="container mx-auto p-8 xl:px-0">
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
-        <div className="hover:-translate-y-1 lg:col-span-2 xl:col-auto">
+    <div>
+        <Slider {...settings}>
+        <div className="">
           <div className="dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
             <p className="text-2xl leading-normal ">
               Create a visualization tool of the data of the cinema but also of its competitors on a regular and automated basis.
@@ -21,7 +39,7 @@ const Testimonials  = () => {
             />
           </div>
         </div>
-        <div className="hover:-translate-y-1">
+        <div className="">
           <div className="dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
             <p className="text-2xl leading-normal ">
               Predict the number of visitor of the park by day or night.
@@ -33,7 +51,7 @@ const Testimonials  = () => {
             />
           </div>
         </div>
-        <div className="hover:-translate-y-1">
+        <div className="">
           <div className="dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
             <p className="text-2xl leading-normal ">
               Processing and analysis of data concerning matches and subscriptions through dashboards,
@@ -46,8 +64,8 @@ const Testimonials  = () => {
             />
           </div>
         </div>
+        </Slider>
       </div>
-    </div>
   );
 }
 
