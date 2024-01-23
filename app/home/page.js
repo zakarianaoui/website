@@ -89,7 +89,7 @@ export default function CV() {
                     Data engineering
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Database design and implementation.
+                    Processing, managing, and optimizing data.
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function CV() {
                     Deep learning
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Automated system optimization through advanced learning.
+                    Advanced machine learning using neural networks.
                   </p>
                 </div>
               </div>
