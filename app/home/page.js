@@ -5,12 +5,15 @@ import SectionTitle from "@/components/home/sectionTitle";
 import Image from "next/image";
 import React from "react";
 import {
-  ArrowTrendingUpIcon,
   ChartBarIcon,
   Square3Stack3DIcon,
   GlobeAltIcon,
   MagnifyingGlassIcon,
-  CircleStackIcon
+  CircleStackIcon,
+  RectangleGroupIcon,
+  ScaleIcon,
+  ArrowsPointingOutIcon,
+  TableCellsIcon
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "@/public/image/benefit-one.png";
@@ -30,7 +33,7 @@ export default function CV() {
     <div className="bg-white_background_bobby px-6">
       <Navbar />
       <div className="relative">
-        <div className="fixed right-0 top-0 h-20 w-20 rounded-bl-full bg-brown_bobby"/>
+        <div className="fixed right-0 top-0 h-20 w-20 rounded-bl-full bg-brown_bobby" />
         <div className="fixed right-0 top-0 pr-4 pt-4">
           <div className="flex items-start justify-end">
             <button
@@ -39,7 +42,7 @@ export default function CV() {
               onClick={() => setOpen(!open)}
             >
               <span className="sr-only">Open panel</span>
-              <Menu className="h-8 w-8" aria-hidden="true"/>
+              <Menu className="h-8 w-8" aria-hidden="true" />
             </button>
           </div>
         </div>
@@ -77,45 +80,71 @@ export default function CV() {
               </p>
             </div>
             <div className="mt-5 w-full">
-                <div className="mt-8 flex items-start space-x-3">
-                  <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                    <ArrowTrendingUpIcon className="w-7 h-7 text-indigo-50"/>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Data analysis
-                    </h4>
-                    <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Analyze your data and extract the information you need.
-                    </p>
-                  </div>
+              <div className="mt-8 flex items-start space-x-3">
+                <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
+                  <TableCellsIcon className="w-7 h-7 text-indigo-50" />
                 </div>
-                <div className="mt-8 flex items-start space-x-3">
-                  <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                    <Square3Stack3DIcon className="w-7 h-7 text-indigo-50"/>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Machine Learning
-                    </h4>
-                    <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Create a machine learning model to predict your data.
-                    </p>
-                  </div>
+                <div>
+                  <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
+                    Data engineering
+                  </h4>
+                  <p className="mt-1 text-gray-500 dark:text-gray-400">
+                    Processing, managing, and optimizing data.
+                  </p>
                 </div>
-                <div className="mt-8 flex items-start space-x-3">
-                  <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                    <ChartBarIcon className="w-7 h-7 text-indigo-50"/>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Data visualization
-                    </h4>
-                    <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Create a dashboard to visualize your data.
-                    </p>
-                  </div>
+              </div>
+              <div className="mt-8 flex items-start space-x-3">
+                <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
+                  <ChartBarIcon className="w-7 h-7 text-indigo-50" />
                 </div>
+                <div>
+                  <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
+                    Data visualization
+                  </h4>
+                  <p className="mt-1 text-gray-500 dark:text-gray-400">
+                    Operate Data to create a dashboard and visualize your data.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-8 flex items-start space-x-3">
+                <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
+                  <Square3Stack3DIcon className="w-7 h-7 text-indigo-50" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
+                    Machine learning
+                  </h4>
+                  <p className="mt-1 text-gray-500 dark:text-gray-400">
+                    Representing data for machine learning model to predict your data.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-8 flex items-start space-x-3">
+                <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
+                  <RectangleGroupIcon className="w-7 h-7 text-indigo-50" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
+                    Deep learning
+                  </h4>
+                  <p className="mt-1 text-gray-500 dark:text-gray-400">
+                    Advanced machine learning using neural networks.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-8 flex items-start space-x-3">
+                <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
+                  <ArrowsPointingOutIcon className="w-7 h-7 text-indigo-50" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
+                    Information system
+                  </h4>
+                  <p className="mt-1 text-gray-500 dark:text-gray-400">
+                    Data-driven information system design and modeling.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -143,45 +172,58 @@ export default function CV() {
               </h3>
             </div>
             <div className="mt-5 w-full">
-                <div className="mt-8 flex items-start space-x-3">
-                  <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                    <CircleStackIcon className="w-7 h-7 text-indigo-50" />
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Big Data
-                    </h4>
-                    <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Manage your big data.
-                    </p>
-                  </div>
+              <div className="mt-8 flex items-start space-x-3">
+                <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
+                  <CircleStackIcon className="w-7 h-7 text-indigo-50" />
                 </div>
-                <div className="mt-8 flex items-start space-x-3">
-                  <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                    <MagnifyingGlassIcon className="w-7 h-7 text-indigo-50" />
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Project Management
-                    </h4>
-                    <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Manage your project from A to Z.
-                    </p>
-                  </div>
+                <div>
+                  <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
+                    Big data
+                  </h4>
+                  <p className="mt-1 text-gray-500 dark:text-gray-400">
+                    Designing business intelligence and big data analytics architecture.
+                  </p>
                 </div>
-                <div className="mt-8 flex items-start space-x-3">
-                  <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                    <GlobeAltIcon className="w-7 h-7 text-indigo-50" />
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Web Development
-                    </h4>
-                    <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Create a website for your project.
-                    </p>
-                  </div>
+              </div>
+              <div className="mt-8 flex items-start space-x-3">
+                <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
+                  <MagnifyingGlassIcon className="w-7 h-7 text-indigo-50" />
                 </div>
+                <div>
+                  <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
+                    Project management
+                  </h4>
+                  <p className="mt-1 text-gray-500 dark:text-gray-400">
+                    Drive a digital project from scratch.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-8 flex items-start space-x-3">
+                <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
+                  <GlobeAltIcon className="w-7 h-7 text-indigo-50" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
+                    Web development
+                  </h4>
+                  <p className="mt-1 text-gray-500 dark:text-gray-400">
+                    Create a responsive website for your project.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-8 flex items-start space-x-3">
+                <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
+                  <ScaleIcon className="w-7 h-7 text-indigo-50" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
+                    Legal ethics of AI and Green IT
+                  </h4>
+                  <p className="mt-1 text-gray-500 dark:text-gray-400">
+                    Helping to adopt an ethical approach to data and learning.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -201,7 +243,7 @@ export default function CV() {
       </SectionTitle>
       <Faq />
       <Footer />
-      <SliderHome open={open} setOpen={setOpen}/>
+      <SliderHome open={open} setOpen={setOpen} />
     </div>
   );
 }
