@@ -1,0 +1,83 @@
+{   
+    "test" :"un test",
+    "home" : {
+        "head" :{
+            "description": "Une communauté d'étudiants passionnée d'informatique et d'innovation."
+        },
+        "intro" :{
+            "title": "Why IDeA?",
+            "subtitle": "Why should you contact us",
+            "description": "We are a team of student who learned how to code and we want to help you to create your project."
+        },
+        "presentation" :{
+            "title":{
+                "1": "Lots of skills",
+                "2": "And more..."
+            },
+            "subtitle" :{
+                "1": "Grâce à nos experiences, we have acquired a lot of skills in different fields."
+            },
+            "subsubtitle" :{
+                "1a": "Data analysis",
+                "1b": "Machine Learning",
+                "1c": "Data visualization",
+                "2a": "Big Data",
+                "2b": "Project Management",
+                "2c": "Web Development"
+            },
+            "description" :{
+                "1a": "Analyze your data and extract the information you need.",
+                "1b": "Create a machine learning model to predict your data.",
+                "1c": "Create a dashboard to visualize your data.",
+                "2a": "Manage your big data.",
+                "2b": "Manage your project from A to Z.",
+                "2c": "Create a website for your project."
+
+            }
+            
+        },
+        "project" :{
+            "title": "Projects",
+            "subtitle": "Here's some of our projects",
+            "description" :{
+                "1": "We have already worked on some projects, here are some of them.",
+                "2": "Create a visualization tool of the data of the cinema but also of its competitors on a regular and automated basis.",
+                "3": "Predict the number of visitor of the park by day or night.",
+                "4": "Processing and analysis of data concerning matches and subscriptions through dashboards, and implementation of a customer typology."
+            },
+            "client" :{
+                "1": "CGR",
+                "2": "Puy du Fou",
+                "3": "Toulouse Football Club"
+            }
+        },
+        "faq" :{
+            "title": "FAQ",
+            "subtitle": "Frequently Asked Questions",
+            "description": "If you still have questions look here",
+            "question" :{
+                "1": "Are our services free ?",
+                "2": "How can I contact you ?"
+            },
+            "answer" :{
+                "1": "Yes, our services are completely free!",
+                "2": "Email us at ideamiage@gmail.com"
+            }
+        },
+        "footer" :{
+            "description": "IDeA is a non-profit organization that promotes the development of various projects in the field of education, culture, art and science.",
+            "home": "Home",
+            "skills": "Skills",
+            "projects": "Projects",
+            "faq": "FAQ",
+            "terms": "Terms",
+            "privacy": "Privacy",
+            "legal": "Legal",
+            "followus": "Follow us",
+            "instagram": "Instagram",
+            "linkedin": "Linkedin",
+            "mailto": "Mail To",
+            "copyright": "Copyright IDeA © 2023."
+        }
+    }
+}
