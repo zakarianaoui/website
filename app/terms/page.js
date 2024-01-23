@@ -1,7 +1,11 @@
+import SectionTitle from "@/components/home/sectionTitle";
 export default function Terms() {
   return (
     <>
-      <h2>Website Terms of Use</h2>
+
+      <SectionTitle
+        id="faq"
+        title="Website Terms of Use" />
 
       <p>Version 1.0</p>
 
@@ -21,6 +25,10 @@ export default function Terms() {
         limit the remedies available to you in the event of a dispute. These Terms of Use were created with the help
         of the <a href="https://www.termsofusegenerator.net">Terms Of Use Generator</a>.</p>
 
+
+      <SectionTitle
+        id="faq"
+        title="Access to the Site" />
 
       <h2>Access to the Site</h2>
 
