@@ -22,12 +22,29 @@ import Navbar from "@/components/home/navbar";
 import Testimonials from "@/components/home/testimonials";
 import Faq from "@/components/home/faq";
 import Footer from "@/components/footer";
+import useTranslation from 'next-translate/useTranslation'
+import Link from 'next/link'
+import i18nConfig from '../../i18n'
+
+import setLanguage from 'next-translate/setLanguage'
+
+
 
 export default function CV() {
   const [open, setOpen] = useState(false);
+  const { t, lang } = useTranslation('all')
+  const test = t('all:home.presentation.subtitle.1')
 
+  
   return (
     <div className="bg-white_background_bobby px-6">
+            <Link href="/" locale="en">
+          <h2>Anglais</h2>
+        </Link>
+        <Link href="/" locale="fr">
+          <h2>Français</h2>
+        </Link>
+
       <Navbar />
       <div className="relative">
         <div className="fixed right-0 top-0 h-20 w-20 rounded-bl-full bg-brown_bobby"/>
@@ -73,7 +90,7 @@ export default function CV() {
                 Lots of skills
               </h3>
               <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-xl">
-                Thanks to our different experiences, we have acquired a lot of skills in different fields.
+              {test}
               </p>
             </div>
             <div className="mt-5 w-full">
