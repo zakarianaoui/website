@@ -5,18 +5,23 @@ import cgr from "@/public/image/projects/cgr.png";
 import tfc from "@/public/image/projects/tfc.png";
 import fou from "@/public/image/projects/puy_du_fou.svg";
 
+import useTranslation from 'next-translate/useTranslation'
+import Link from 'next/link'
+
 const Testimonials  = () => {
+  const { t, lang } = useTranslation('all')
+
   return (
     <div className="container mx-auto p-8 xl:px-0">
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="hover:-translate-y-1 lg:col-span-2 xl:col-auto">
           <div className="dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
             <p className="text-2xl leading-normal ">
-              Create a visualization tool of the data of the cinema but also of its competitors on a regular and automated basis.
+              {t('all:home.project.description.2')}
             </p>
             <Avatar
               image={cgr}
-              name="CGR"
+              name={t('all:home.project.client.1')}
               title="2023"
             />
           </div>
@@ -24,11 +29,11 @@ const Testimonials  = () => {
         <div className="hover:-translate-y-1">
           <div className="dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
             <p className="text-2xl leading-normal ">
-              Predict the number of visitor of the park by day or night.
+            {t('all:home.project.description.3')}
             </p>
             <Avatar
               image={fou}
-              name="Puy du Fou"
+              name={t('all:home.project.client.2')}
               title="2023"
             />
           </div>
@@ -36,12 +41,11 @@ const Testimonials  = () => {
         <div className="hover:-translate-y-1">
           <div className="dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
             <p className="text-2xl leading-normal ">
-              Processing and analysis of data concerning matches and subscriptions through dashboards,
-              and implementation of a customer typology.
+            {t('all:home.project.description.4')}
             </p>
             <Avatar
               image={tfc}
-              name="Toulouse Football Club"
+              name={t('all:home.project.client.3')}
               title="2023"
             />
           </div>

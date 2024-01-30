@@ -4,7 +4,11 @@ import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
+import useTranslation from 'next-translate/useTranslation'
+import Link from 'next/link'
+
 const Faq = () => {
+  
   return (
     <div className="container mx-auto p-8 xl:px-0">
       <div className="mx-auto w-full max-w-2xl rounded-2xl p-2">
@@ -33,15 +37,20 @@ const Faq = () => {
     </div>
   );
 }
+const { t, lang } = useTranslation('all')
+const quest1 = t('all:home.faq.question.1')
+const quest2 = t('all:home.faq.question.2')
+const ans1 = t('all:home.faq.answer.1')
+const ans2 = t('all:home.faq.answer.2')
 
 const faqdata = [
   {
-    question: "Is our project free",
-    answer: "Yes, our project are completely free!",
+    question: quest1,
+    answer: ans1,
   },
   {
-    question: "How can I contact you?",
-    answer: 'Email us at ideamiage@gmail.com',
+    question: quest2,
+    answer: ans2,
   },
 ];
 
