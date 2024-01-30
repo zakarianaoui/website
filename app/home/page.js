@@ -33,15 +33,13 @@ import setLanguage from 'next-translate/setLanguage'
 export default function CV() {
   const [open, setOpen] = useState(false);
   const { t, lang } = useTranslation('all')
-  const test = t('all:home.presentation.subtitle.1')
-
   
   return (
     <div className="bg-white_background_bobby px-6">
-            <Link href="/" locale="en">
+            <Link href="/en" locale="en">
           <h2>Anglais</h2>
         </Link>
-        <Link href="/" locale="fr">
+        <Link href="/fr" locale="fr">
           <h2>Français</h2>
         </Link>
 
@@ -64,9 +62,9 @@ export default function CV() {
       <Hero />
       <SectionTitle
         id="skills"
-        pretitle="Why IDeA?"
-        title="Why should you contact us">
-        We are a team of students who learned how to code, and we want to help you create your project.
+        pretitle={t('all:home.intro.title')}
+        title={t('all:home.intro.subtitle')}>
+        {t('all:home.intro.description')}
       </SectionTitle>
       <div className="container mx-auto p-8 xl:px-0 mb-20 flex flex-wrap lg:flex-nowrap lg:gap-10 ">
         <div
@@ -87,10 +85,10 @@ export default function CV() {
           <div>
             <div className="mt-4 flex w-full flex-col">
               <h3 className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
-                Lots of skills
+              {t('all:home.presentation.title.1')}
               </h3>
               <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-xl">
-              {test}
+              {t('all:home.presentation.subtitle.1')}
               </p>
             </div>
             <div className="mt-5 w-full">
@@ -100,10 +98,10 @@ export default function CV() {
                   </div>
                   <div>
                     <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Data analysis
+                    {t('all:home.presentation.subsubtitle.1a')}
                     </h4>
                     <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Analyze your data and extract the information you need.
+                      A{t('all:home.presentation.description.1a')}
                     </p>
                   </div>
                 </div>
@@ -113,10 +111,10 @@ export default function CV() {
                   </div>
                   <div>
                     <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Machine Learning
+                    {t('all:home.presentation.subsubtitle.1b')}
                     </h4>
                     <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Create a machine learning model to predict your data.
+                    {t('all:home.presentation.description.1b')}
                     </p>
                   </div>
                 </div>
@@ -126,10 +124,10 @@ export default function CV() {
                   </div>
                   <div>
                     <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Data visualization
+                    {t('all:home.presentation.subsubtitle.1c')}
                     </h4>
                     <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Create a dashboard to visualize your data.
+                    {t('all:home.presentation.description.1c')}
                     </p>
                   </div>
                 </div>
@@ -156,7 +154,7 @@ export default function CV() {
           <div>
             <div className="mt-4 flex w-full flex-col">
               <h3 className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
-                And more...
+              {t('all:home.presentation.title.2')}
               </h3>
             </div>
             <div className="mt-5 w-full">
@@ -166,10 +164,10 @@ export default function CV() {
                   </div>
                   <div>
                     <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Big Data
+                    {t('all:home.presentation.subsubtitle.2a')}
                     </h4>
                     <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Manage your big data.
+                    {t('all:home.presentation.description.2a')}
                     </p>
                   </div>
                 </div>
@@ -179,10 +177,10 @@ export default function CV() {
                   </div>
                   <div>
                     <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Project Management
+                    {t('all:home.presentation.subsubtitle.2b')}
                     </h4>
                     <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Manage your project from A to Z.
+                    {t('all:home.presentation.description.2b')}
                     </p>
                   </div>
                 </div>
@@ -192,10 +190,10 @@ export default function CV() {
                   </div>
                   <div>
                     <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                      Web Development
+                    {t('all:home.presentation.subsubtitle.2c')}
                     </h4>
                     <p className="mt-1 text-gray-500 dark:text-gray-400">
-                      Create a website for your project.
+                    {t('all:home.presentation.description.3c')}
                     </p>
                   </div>
                 </div>
@@ -205,16 +203,16 @@ export default function CV() {
       </div>
       <SectionTitle
         id="projects"
-        pretitle="Projects"
-        title="Here's some of our projects">
-        We have already worked on some projects, here are some of them.
+        pretitle={t('all:home.project.title')}
+        title={t('all:home.project.subtitle')}>
+        {t('all:home.project.description.1')}
       </SectionTitle>
       <Testimonials />
       <SectionTitle
         id="faq"
-        pretitle="FAQ"
-        title="Frequently Asked Questions">
-        If you still have questions, look here.
+        pretitle={t('all:home.faq.title')}
+        title={t('all:home.faq.subtitle')}>
+        {t('all:home.faq.description')}
       </SectionTitle>
       <Faq />
       <Footer />
