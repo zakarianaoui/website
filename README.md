@@ -1,8 +1,5 @@
-# BobbyHR
 
-<p align="center">
-  <img alt="bobbyhrlogo" src="https://user-images.githubusercontent.com/78478805/229528159-ee8aea43-5620-48cb-986f-26ef55ac11f1.png">
-</p>
+# IDeA
 
 <p align="center">
   <a href='https://www.ut-capitole.fr/'><img alt='UT1 Capitole' src='https://img.shields.io/badge/-UT1%20Capitole-red'/></a>
@@ -10,12 +7,8 @@
   <img alt="Contributors" src="https://badgen.net/github/contributors/idea-ut1/bobbyhr"/>
 </p>
 
-BobbyHR is a web application that allows you :
 
-- to have a first page of contact with your client.
-- to manage your clients and your projects with different roles and permissions.
-- to manage your employees and their skills.
-- to manage your employees kanban board.
+Site vitrine de la micro-entreprise IDeA
 
 ## Installation
 
@@ -29,7 +22,7 @@ https://nodejs.org/en/download/
 Clone the repository:
 
 ```shell
-git clone https://github.com/idea-ut1/bobbyhr.git
+git clone https://github.com/idea-ut1/website.git
 ```
 
 Install dependencies:
