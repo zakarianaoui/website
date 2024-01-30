@@ -103,14 +103,6 @@ function SliderHome({open, setOpen}) {
                         </div>
                       </div>
                     </div>
-
-                    {/* Bouton Intranet */}
-                    <Link href="/auth" className="absolute bottom-0 right-2 p-4 text-[30px] text-gray-400 hover:text-gray-500">
-                      <span className="sr-only">Intranet</span>
-                      <div className="flex flex-row items-center align-middle">
-                        Intranet
-                      </div>
-                    </Link>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
