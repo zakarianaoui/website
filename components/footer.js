@@ -2,18 +2,29 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import idea from "@/public/image/idea-logo.png";
+import useTranslation from 'next-translate/useTranslation'
 
 export default function Footer() {
+  const { t, lang } = useTranslation('all')
+  
+  const home = t('all:home.footer.home');
+  const skills = t('all:home.footer.skills');
+  const projects = t('all:home.footer.projects');
+  const faq = t('all:home.footer.faq');
+  const terms = t('all:home.footer.terms');
+  const privacy = t('all:home.footer.privacy');
+  const legaltrad = t('all:home.footer.legal');
+
   const navigation = [
-    {key: "Home", link: "#home"},
-    {key: "Skills", link: "#skills"},
-    {key: "Projects", link: "#projects"},
-    {key: "FAQ", link: "#faq"},
+    {key: home, link: "#home"},
+    {key: skills, link: "#skills"},
+    {key: projects, link: "#projects"},
+    {key: faq, link: "#faq"},
   ];
   const legal = [
-    {key: "Terms", link: "/terms"},
-    {key: "Privacy", link: "/privacy"},
-    {key: "Legal", link: "/"},
+    {key: terms, link: "/terms"},
+    {key: privacy, link: "/privacy"},
+    {key: legaltrad, link: "/"},
   ];
 
   return (
@@ -36,9 +47,7 @@ export default function Footer() {
             </div>
 
             <div className="mt-4 max-w-md text-gray-500 dark:text-gray-400">
-              IDeA is a non-profit organization that promotes the development of
-              various projects in the field of education, culture, art and
-              science.
+            {t('all:home.footer.description')}
             </div>
           </div>
 
@@ -61,14 +70,14 @@ export default function Footer() {
             </div>
           </div>
           <div className="">
-            <div>Follow us</div>
+            <div>{t('all:home.footer.followus')}</div>
             <div className="mt-5 flex space-x-5 text-gray-400 dark:text-gray-500">
               <Link
                 href="https://www.instagram.com/idea_ut1/"
                 className="text-gray-400 hover:text-gray-500"
                 target="_blank"
                 rel="noopener">
-                <span className="sr-only">Instagram</span>
+                <span className="sr-only">{t('all:home.footer.instagram')}</span>
                 <Instagram />
               </Link>
               <Link
@@ -76,7 +85,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-gray-500"
                 target="_blank"
                 rel="noopener">
-                <span className="sr-only">Linkedin</span>
+                <span className="sr-only">{t('all:home.footer.linkedin')}</span>
                 <Linkedin />
               </Link>
               <Link
@@ -84,7 +93,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-gray-500"
                 target="_blank"
                 rel="noopener">
-                <span className="sr-only">Mail To</span>
+                <span className="sr-only">{t('all:home.footer.mailto')}</span>
                 <Mail />
               </Link>
             </div>
@@ -92,7 +101,7 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-center text-sm text-gray-600 dark:text-gray-400">
-          Copyright IDeA © {new Date().getFullYear()}.
+        {t('all:home.footer.copyright')}{new Date().getFullYear()}.
         </div>
       </div>
     </div>

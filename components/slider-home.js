@@ -2,8 +2,11 @@ import React, {Fragment} from "react";
 import {Dialog, Transition} from "@headlessui/react";
 import {X} from "react-feather";
 import Link from "next/link";
+import useTranslation from 'next-translate/useTranslation'
 
 function SliderHome({open, setOpen}) {
+  
+  const { t, lang } = useTranslation('all')
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={setOpen}>
@@ -96,10 +99,10 @@ function SliderHome({open, setOpen}) {
                       {/* Menu */}
                       <div className="max-h-0 w-3/4">
                         <div className="mt-6 flex flex-col justify-center gap-4 px-4 text-5xl text-gray-100 sm:px-6">
-                          <a href="#home" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Home</a>
-                          <a href="#skills" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Skills</a>
-                          <a href="#projects" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Projects</a>
-                          <a href="#faq" className="hover:text-gray-500" onClick={() => setOpen(!open)}>FAQ</a>
+                          <a href="#home" className="hover:text-gray-500" onClick={() => setOpen(!open)}>{t('all:home.footer.home')}</a>
+                          <a href="#skills" className="hover:text-gray-500" onClick={() => setOpen(!open)}>{t('all:home.footer.skills')}</a>
+                          <a href="#projects" className="hover:text-gray-500" onClick={() => setOpen(!open)}>{t('all:home.footer.projects')}</a>
+                          <a href="#faq" className="hover:text-gray-500" onClick={() => setOpen(!open)}>{t('all:home.footer.faq')}</a>
                         </div>
                       </div>
                     </div>
