@@ -26,11 +26,10 @@ import Testimonials from "@/components/home/testimonials";
 import Faq from "@/components/home/faq";
 import Footer from "@/components/footer";
 import useTranslation from 'next-translate/useTranslation'
-import commonEN from 'locales/en/common.json'
 
 export default function CV() {
   const [open, setOpen] = useState(false);
-  const { lang } = useTranslation()
+  const {t,  lang } = useTranslation("common")
 
   return (
     <div className="bg-white_background_bobby px-6">
@@ -55,8 +54,7 @@ export default function CV() {
         id="skills"
         pretitle={t('home.intro.title')}
         title={t('home.intro.subtitle')}>
-        {/* {t('home.intro.description')} */}
-        {t('commonEN:home.intro.description')}
+        {t('home.intro.description')}
       </SectionTitle>
       
       <div className="container mx-auto p-8 xl:px-0 mb-20 flex flex-wrap lg:flex-nowrap lg:gap-10 ">
