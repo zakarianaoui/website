@@ -25,9 +25,12 @@ import Navbar from "@/components/home/navbar";
 import Testimonials from "@/components/home/testimonials";
 import Faq from "@/components/home/faq";
 import Footer from "@/components/footer";
+import useTranslation from 'next-translate/useTranslation'
+import commonEN from 'locales/en/common.json'
 
 export default function CV() {
   const [open, setOpen] = useState(false);
+  const { lang } = useTranslation()
 
   return (
     <div className="bg-white_background_bobby px-6">
@@ -50,10 +53,12 @@ export default function CV() {
       <Hero />
       <SectionTitle
         id="skills"
-        pretitle="Why IDeA?"
-        title="Why should you contact us">
-        We are a team of students who learned how to code, and we want to help you create your project.
+        pretitle={t('home.intro.title')}
+        title={t('home.intro.subtitle')}>
+        {/* {t('home.intro.description')} */}
+        {t('commonEN:home.intro.description')}
       </SectionTitle>
+      
       <div className="container mx-auto p-8 xl:px-0 mb-20 flex flex-wrap lg:flex-nowrap lg:gap-10 ">
         <div
           className={`flex w-full items-center justify-center lg:w-1/2`}>
