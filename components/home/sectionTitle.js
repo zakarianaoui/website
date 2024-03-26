@@ -4,7 +4,7 @@ const SectionTitle = (props) => {
   return (
     <div
       id={props.id}
-      className={`container mx-auto p-8 xl:px-0 mt-4 flex w-full flex-col ${
+      className={`container mx-auto mt-4 flex w-full flex-col p-8 xl:px-0 ${
         props.align === "left" ? "" : "items-center justify-center text-center"
       }`}>
       {props.pretitle && (
