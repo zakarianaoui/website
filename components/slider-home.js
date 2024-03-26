@@ -104,8 +104,6 @@ function SliderHome({open, setOpen}) {
                         </div>
                       </div>
                     </div>
-
-
                   </div>
                 </Dialog.Panel>
               </Transition.Child>

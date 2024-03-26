@@ -2,8 +2,8 @@ import SectionTitle from "@/components/home/sectionTitle";
 export default function Privacy() {
   return (
     <>
-      <div className="bg-gray-100 text-gray-700 p-5 lg:p-20 text-justify">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-center my-8">
+      <div className="bg-gray-100 p-5 text-justify text-gray-700 lg:p-20">
+        <h1 className="my-8 text-center text-5xl font-extrabold md:text-6xl lg:text-7xl">
           Privacy Policy for IDeA
         </h1>
         <div className="container mx-auto max-w-3xl text-justify">
