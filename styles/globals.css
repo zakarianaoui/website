@@ -20,6 +20,11 @@ body {
   body {
     @apply dark:bg-gray_bobby;
   }
+
+  iframe {
+    margin: auto;
+
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {
