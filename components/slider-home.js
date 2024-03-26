@@ -100,6 +100,7 @@ function SliderHome({open, setOpen}) {
                           <a href="#skills" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Skills</a>
                           <a href="#projects" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Projects</a>
                           <a href="#faq" className="hover:text-gray-500" onClick={() => setOpen(!open)}>FAQ</a>
+                          <a href="/competences" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Competences</a>
                         </div>
                       </div>
                     </div>
