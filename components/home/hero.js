@@ -4,9 +4,9 @@ import heroImg from "@/public/image/hero.png";
 const Hero = () => {
   return (
     <>
-      <div className="container mx-auto flex flex-wrap p-8 xl:px-0">
-        <div id="home" className="flex w-full items-center lg:w-1/2">
-          <div className="mb-8 max-w-2xl">
+      <div className="container flex flex-wrap p-8 mx-auto xl:px-0">
+        <div id="home" className="flex items-center w-full lg:w-1/2">
+          <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
               IDeA
             </h1>
@@ -15,7 +15,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="flex w-full items-center justify-center lg:w-1/2">
+        <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
               src={heroImg}

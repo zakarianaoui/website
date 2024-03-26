@@ -3,12 +3,12 @@ export default function Terms() {
   return (
     <>
 
-      <div className="bg-gray-100 p-5 text-justify text-gray-700 lg:p-20 ">
-        <h1 id="terms-of-use" className="my-8 text-center text-5xl font-extrabold md:text-6xl lg:text-7xl">
+      <div className="p-5 text-justify text-gray-700 bg-gray-100 lg:p-20 ">
+        <h1 id="terms-of-use" className="my-8 text-5xl font-extrabold text-center md:text-6xl lg:text-7xl">
           Website Terms of Use
         </h1>
 
-        <div className="container mx-auto max-w-3xl">
+        <div className="container max-w-3xl mx-auto">
           <p className="mb-5 text-sm">Version 1.0</p>
 
           <p className="mb-5">
