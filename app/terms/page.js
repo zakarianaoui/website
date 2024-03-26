@@ -3,13 +3,13 @@ export default function Terms() {
   return (
     <>
 
-      <div className="bg-gray-100 text-gray-700 p-5 lg:p-20 text-justify ">
-        <h1 id="terms-of-use" className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-center my-8">
+      <div className="p-5 text-justify text-gray-700 bg-gray-100 lg:p-20 ">
+        <h1 id="terms-of-use" className="my-8 text-5xl font-extrabold text-center md:text-6xl lg:text-7xl">
           Website Terms of Use
         </h1>
 
-        <div className="container mx-auto max-w-3xl">
-          <p className="text-sm mb-5">Version 1.0</p>
+        <div className="container max-w-3xl mx-auto">
+          <p className="mb-5 text-sm">Version 1.0</p>
 
           <p className="mb-5">
             The IDeA website located at https://idea-student.works/ is a copyrighted work belonging to IDeA. Certain

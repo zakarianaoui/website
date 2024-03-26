@@ -8,13 +8,13 @@ const SectionTitle = (props) => {
         props.align === "left" ? "" : "items-center justify-center text-center"
       }`}>
       {props.pretitle && (
-        <div className="text-sm font-bold uppercase tracking-wider text-indigo-600">
+        <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase">
           {props.pretitle}
         </div>
       )}
 
       {props.title && (
-        <h2 className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
+        <h2 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
           {props.title}
         </h2>
       )}
