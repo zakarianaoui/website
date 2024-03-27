@@ -15,7 +15,9 @@ export default function Competences() {
         <div className="flex items-center w-full">
           <iframe
             title="Suivi_compétence_FINAL"
-            className="rounded-lg shadow-lg w-full h-[641.25px]"
+            className="rounded-lg shadow-lg"
+            width="1440" 
+            height="641.25" 
             src="https://app.powerbi.com/reportEmbed?reportId=12f6d628-7428-49f0-9e2c-600c760996b0&autoAuth=true&ctid=35c1785d-3361-4341-a29e-fc685e52b8a5"
             allowFullScreen="true"
           ></iframe>
