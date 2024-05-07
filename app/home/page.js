@@ -22,7 +22,6 @@ import benefitTwoImg from "@/public/image/benefit-two.png";
 import { Menu } from "react-feather";
 import SliderHome from "@/components/slider-home";
 import { useState } from "react";
-import Navbar from "@/components/home/navbar";
 import Testimonials from "@/components/home/testimonials";
 import Faq from "@/components/home/faq";
 import Footer from "@/components/footer";
@@ -32,7 +31,6 @@ export default function CV() {
 
   return (
     <div className="bg-white_background_bobby px-6">
-      <Navbar />
       <div className="relative">
         <div className="fixed right-0 top-0 h-20 w-20 rounded-bl-full bg-brown_bobby" />
         <div className="fixed right-0 top-0 pr-4 pt-4">
@@ -87,7 +85,7 @@ export default function CV() {
             <div className="mt-5 w-full">
               <div className="mt-8 flex items-start space-x-3">
                 <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                  <TableCellsIcon className="w-7 h-7 text-indigo-50" />
+                  <TableCellsIcon className="h-7 w-7 text-indigo-50" />
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
@@ -100,7 +98,7 @@ export default function CV() {
               </div>
               <div className="mt-8 flex items-start space-x-3">
                 <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                  <ChartBarIcon className="w-7 h-7 text-indigo-50" />
+                  <ChartBarIcon className="h-7 w-7 text-indigo-50" />
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
@@ -113,7 +111,7 @@ export default function CV() {
               </div>
               <div className="mt-8 flex items-start space-x-3">
                 <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                  <Square3Stack3DIcon className="w-7 h-7 text-indigo-50" />
+                  <Square3Stack3DIcon className="h-7 w-7 text-indigo-50" />
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
@@ -126,7 +124,7 @@ export default function CV() {
               </div>
               <div className="mt-8 flex items-start space-x-3">
                 <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                  <RectangleGroupIcon className="w-7 h-7 text-indigo-50" />
+                  <RectangleGroupIcon className="h-7 w-7 text-indigo-50" />
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
@@ -139,7 +137,7 @@ export default function CV() {
               </div>
               <div className="mt-8 flex items-start space-x-3">
                 <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                  <ArrowsPointingOutIcon className="w-7 h-7 text-indigo-50" />
+                  <ArrowsPointingOutIcon className="h-7 w-7 text-indigo-50" />
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
@@ -154,9 +152,9 @@ export default function CV() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto p-8 xl:px-0 mb-20 flex flex-wrap lg:flex-nowrap lg:gap-10 ">
+      <div className="container mx-auto mb-20 flex flex-wrap p-8 lg:flex-nowrap lg:gap-10 xl:px-0 ">
         <div
-          className={`flex w-full items-center justify-center lg:w-1/2 lg:order-1`}>
+          className="flex w-full items-center justify-center lg:order-1 lg:w-1/2">
           <div>
             <Image
               src={benefitTwoImg}
@@ -179,7 +177,7 @@ export default function CV() {
             <div className="mt-5 w-full">
               <div className="mt-8 flex items-start space-x-3">
                 <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                  <CircleStackIcon className="w-7 h-7 text-indigo-50" />
+                  <CircleStackIcon className="h-7 w-7 text-indigo-50" />
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
@@ -192,7 +190,7 @@ export default function CV() {
               </div>
               <div className="mt-8 flex items-start space-x-3">
                 <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                  <MagnifyingGlassIcon className="w-7 h-7 text-indigo-50" />
+                  <MagnifyingGlassIcon className="h-7 w-7 text-indigo-50" />
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
@@ -205,7 +203,7 @@ export default function CV() {
               </div>
               <div className="mt-8 flex items-start space-x-3">
                 <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                  <GlobeAltIcon className="w-7 h-7 text-indigo-50" />
+                  <GlobeAltIcon className="h-7 w-7 text-indigo-50" />
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
@@ -218,7 +216,7 @@ export default function CV() {
               </div>
               <div className="mt-8 flex items-start space-x-3">
                 <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-indigo-500 ">
-                  <ScaleIcon className="w-7 h-7 text-indigo-50" />
+                  <ScaleIcon className="h-7 w-7 text-indigo-50" />
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">

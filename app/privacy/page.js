@@ -2,11 +2,11 @@ import SectionTitle from "@/components/home/sectionTitle";
 export default function Privacy() {
   return (
     <>
-      <div className="bg-gray-100 text-gray-700 p-5 lg:p-20 text-justify">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-center my-8">
+      <div className="p-5 text-justify text-gray-700 bg-gray-100 lg:p-20">
+        <h1 className="my-8 text-5xl font-extrabold text-center md:text-6xl lg:text-7xl">
           Privacy Policy for IDeA
         </h1>
-        <div className="container mx-auto max-w-3xl text-justify">
+        <div className="container max-w-3xl mx-auto text-justify">
           <p>At IDeA, accessible from https://idea-student.works/, one of our main priorities is the privacy of our
             visitors. This Privacy Policy document contains types of information that is collected and recorded by IDeA and
             how we use it.
@@ -48,7 +48,7 @@ export default function Privacy() {
           <SectionTitle
             id="faq3"
             title="Log Files" />
-          {/* <h2 className="text-2xl md:text-3xl font-bold my-5">Log Files</h2> */}
+          {/* <h2 className="my-5 text-2xl font-bold md:text-3xl">Log Files</h2> */}
 
           <p>IDeA follows a standard procedure of using log files. These files log visitors when they visit websites. All
             hosting companies do this and a part of hosting services&apos; analytics. The information collected by log files
