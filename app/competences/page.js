@@ -3,10 +3,12 @@ import Link from "next/link";
 
 export default function Competences() {
   return (
-    <div className="h-screen">
-      <div className="bg-gray-100 p-5 text-justify text-gray-700 lg:p-20 flex-col items-center h-full">
-        <Link href={'/'}> <ArrowLeftIcon className="h-10 w-10 text-blue-500 absolute top-5 left-10" /> </Link>
-        <h1 className="my-8 text-center text-5xl font-extrabold md:text-6xl lg:text-7xl">
+    <div className="h-screen bg-gray-100">
+      <div className="flex-col items-center h-full p-5 text-justify text-gray-700 lg:p-20">
+        <Link href={'/'}>
+          <ArrowLeftIcon className="absolute w-10 h-10 text-blue-500 top-5 left-10" />
+        </Link>
+        <h1 className="my-8 text-5xl font-extrabold text-center md:text-6xl lg:text-7xl">
           Competency matrix of IDeA
         </h1>
         <div className="flex items-center justify-center w-full">
