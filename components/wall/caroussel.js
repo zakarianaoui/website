@@ -16,7 +16,7 @@ const Caroussel = (props) => {
         },
         {
             name: "Camille CABRI",
-            image: "https://media.licdn.com/dms/image/D4D35AQF6ib7Waa_5lw/profile-framedphoto-shrink_400_400/0/1709568980607?e=1715695200&v=beta&t=MH_uoOO2sJHwKROrfyQAQZETdvjj4g-U3CZEwUqLpBw",
+            image: "https://media.licdn.com/dms/image/D4D35AQF6ib7Waa_5lw/profile-framedphoto-shrink_400_400/0/1709568980607?e=1717506000&v=beta&t=o3sBeUxOt7V3PI67I49BX9hLtjeoEoAghtwcWI3xc_s",
             linkedin: "https://www.linkedin.com/in/camille-cabri-0515a019a/" 
         },
         {
@@ -26,12 +26,12 @@ const Caroussel = (props) => {
         },
         {
             name: "Margaux PIERRE",
-            image: Pierre,
+            image: "https://media.licdn.com/dms/image/C4E03AQEEeaPPSlYavQ/profile-displayphoto-shrink_400_400/0/1633984880983?e=1722470400&v=beta&t=7vj9CCFMPNDdRwbX2ybf-O42PyACddnm6EVKr3pUqhw",
             linkedin: "https://www.linkedin.com/in/margaux-pierre-627353218/"
         },
         {
             name: "Camille MIRIO",
-            image: {Mirio},
+            image: "https://media.licdn.com/dms/image/D4E03AQEtWJhLMy3YGw/profile-displayphoto-shrink_400_400/0/1669031662356?e=1722470400&v=beta&t=5ghYuTxQLijFTOpVEz5g6cTgQqPaU9FHrR5hEH9aTXM",
             linkedin: "https://www.linkedin.com/in/camille-mirio-80bb74257/"
         },
         {
@@ -111,7 +111,7 @@ const Caroussel = (props) => {
         },
         {
             name: "Gabriel SAUNDERS",
-            image: "https://media.licdn.com/dms/image/D4E03AQHTCEdyLFZEfA/profile-displayphoto-shrink_800_800/0/1699634439086?e=1717027200&v=beta&t=BuRmXBN-zT_vf3H5zeOQYq3x-5YFo_ykXuKXvJflYMU",
+            image: "https://media.licdn.com/dms/image/D4E03AQEFEXcDcB4FEw/profile-displayphoto-shrink_400_400/0/1716808350714?e=1722470400&v=beta&t=OOFNTzfMmAIOi079DoNNUFkpssnyhzE9rUWvfDc6QQE",
             linkedin: "https://www.linkedin.com/in/gabriel-saunders-94982b18b/"
         },
         {
