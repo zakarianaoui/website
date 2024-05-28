@@ -33,10 +33,10 @@ export default function Competences() {
               Cette matrice de compétence a été remplie en auto notation par les étudiants en début d'année et a pour but d'être réévalué plusieurs fois tout au long de l'année.
               <br></br>
               <br></br>
-              Chaque compétence à été noté de 1 à 5.
+              Chaque compétence a été notée de 1 à 5.
               <br></br>
               <br></br>
-              Avec ces informations il sera possible de voir l'évolution des étudiants dans les différents domaines de compétences vues en projets.
+              Avec ces informations, il sera possible de voir l'évolution des étudiants dans les différents domaines de compétences vues en projets.
               <br></br>
               <br></br>
             </p>
@@ -51,12 +51,12 @@ export default function Competences() {
               <li className="my-8 text-xl md:text-xl lg:text-xl">Erudits :</li>
               <p className="my-8 text-base md:text-base lg:text-base font-normal">
                 Cet onglet offre la possibilité de voir la distribution du niveau de compétences des élèves pour la catégorie souhaitée.
-                De plus le tableau à gauche permet de voir les élèves les plus à l'aise avec la ou les technologies séléctionnés.
+                De plus le tableau à gauche permet de voir les élèves les plus à l'aise avec la ou les technologies sélectionnées.
               </p>
               <li className="my-8 text-xl md:text-xl lg:text-xl">Individuels :</li>
               <p className="my-8 text-base md:text-base lg:text-base font-normal">
                 Cet onglet quant à lui offre une vision centrée sur la progression des élèves dans le temps.
-                Sur la gauche un graphique montre les compétences cumulées de l'étudiant selon les techniques. Ce qui permet de faire ressortir les points forts de l'étudiant.
+                Sur la gauche, un graphique montre les compétences cumulées de l'étudiant selon les techniques. Ce qui permet de faire ressortir les points forts de l'étudiant.
                 <br></br>
                 Le graphique de gauche permet de visualiser la progression d'un étudiant dans le temps. Il est possible de choisir une technique en particulier.
               </p>
