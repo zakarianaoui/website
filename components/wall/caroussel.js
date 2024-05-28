@@ -206,7 +206,7 @@ const Caroussel = (props) => {
                         </div>
 
                         <div className="text-center">
-                            <a href="https://www.linkedin.com/in/ibrahima-barry99/"><img className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://media.licdn.com/dms/image/D4E35AQFGXWWfX8Z6PQ/profile-framedphoto-shrink_800_800/0/1697183221996?e=1712073600&v=beta&t=gU3Cdqs_RNlFhcaHWnFqUYrQ_I_8FF5-CDg1S9pl1dk" /></a>
+                            <a href="https://www.linkedin.com/in/ibrahima-barry99/"><img className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://media.licdn.com/dms/image/D4E35AQFGXWWfX8Z6PQ/profile-framedphoto-shrink_800_800/0/1697183221996?e=1717077600&v=beta&t=psuvtWYCcjugyQzFd4-2nyYnHHTjX_n5zcqwjcJljJY" /></a>
 
                             <a href="https://www.linkedin.com/in/ibrahima-barry99/" className="hover:text-indigo-500 text-gray-900 font-semibold">Ibrahima BARRY</a>
                             <p className="text-gray-500   text-sm">Manager du projet Cancéropole</p>
@@ -221,7 +221,7 @@ const Caroussel = (props) => {
                         </div>
 
                         <div className="text-center">
-                            <a href="https://www.linkedin.com/in/augustin-laurent-204ab6196/"><img className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://media.licdn.com/dms/image/D4E35AQHSlT977-FMvw/profile-framedphoto-shrink_800_800/0/1705091348034?e=1712073600&v=beta&t=9NXympDxN99hLBbgsrMlbMaOM1LNdHJw9Sw8Dfpy0xE" /></a>
+                            <a href="https://www.linkedin.com/in/augustin-laurent-204ab6196/"><img className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://media.licdn.com/dms/image/D4E35AQHSlT977-FMvw/profile-framedphoto-shrink_800_800/0/1705091348034?e=1717077600&v=beta&t=f7SQP1UayypyJne_LzYbF3fqlMRTU3ObQfiI6fjdK8s" /></a>
 
                             <a href="https://www.linkedin.com/in/augustin-laurent-204ab6196/" className="hover:text-indigo-500 text-gray-900 font-semibold">Augustin LAURENT</a>
                             <p className="text-gray-500   text-sm">Support IT</p>
