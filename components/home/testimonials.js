@@ -103,7 +103,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                          Analysis and improvement of customer data management for the company.
+                            Analyse et amélioration de la gestion des données clients pour l'entreprise.
                         </p>
                         <Avatar
                             image={aeg}
@@ -117,7 +117,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                          Development and implementation of a bot on our discord server.
+                            Développement et mise en place d'un bot sur notre serveur discord.
                         </p>
                         <Avatar
                             image={bot}
@@ -131,7 +131,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                          Development of artificial intelligence for video games.
+                            Développement de l'intelligence artificielle pour un jeu vidéo.
                         </p>
                         <Avatar
                             image={spirits}
@@ -145,7 +145,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                          Analyze the quality of life of Occitanie's inhabitants and suggest ways to improve it.
+                            Analyser la qualité de vie des habitants de l'Occitanie et proposer des pistes d'amélioration.
                         </p>
                         <Avatar
                             image={occ}
@@ -159,7 +159,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                        Identifying endothelial cells in microscopic images of breast cancer.
+                            Identification des cellules endothéliales dans des images microscopiques pour prévenir du cancer du sein.
                         </p>
                         <Avatar
                             image={cancer}
@@ -173,7 +173,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                          Develop and deploy a website to showcase IDEA.
+                            Développer et déployer un site web vitrine pour présenter IDEA.
                         </p>
                         <Avatar
                             image={idea}
@@ -187,7 +187,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                            Create a visualization tool of the data of the cinema but also of its competitors on a regular and automated basis.
+                            Créer un outil de visualisation des données du cinéma mais aussi de ses concurrents sur une base régulière et automatisée.
                         </p>
                         <Avatar
                             image={cgr}
@@ -201,7 +201,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                            Predict the number of visitor of the park by day or night.
+                            Prévoir le nombre de visiteurs du parc de jour comme de nuit.
                         </p>
                         <Avatar
                             image={fou}
@@ -215,8 +215,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                            Processing and analysis of data concerning matches and subscriptions through dashboards,
-                            and implementation of a customer typology.
+                            Traitement et analyse des données sur les correspondances et les abonnements par le biais de tableaux de bord, et mise en place d'une typologie des clients.
                         </p>
                         <Avatar
                             image={tfc}
