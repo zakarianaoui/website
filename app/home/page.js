@@ -29,40 +29,6 @@ import Footer from "@/components/footer";
 export default function CV() {
   const [open, setOpen] = useState(false);
 
-  document.addEventListener('DOMContentLoaded', (event) => {
-    const lightModeBtn = document.getElementById('light-mode-btn');
-    const darkModeBtn = document.getElementById('dark-mode-btn');
-    const body = document.body;
-
-    lightModeBtn.addEventListener('click', () => {
-        setLightMode();
-    });
-
-    darkModeBtn.addEventListener('click', () => {
-        setDarkMode();
-    });
-
-    function setLightMode() {
-        body.style.backgroundColor = 'white';
-        body.style.color = 'black';
-        // Change styles of other elements if needed
-        document.querySelectorAll('.content').forEach(el => {
-            el.style.backgroundColor = 'white';
-            el.style.color = 'black';
-        });
-    }
-
-    function setDarkMode() {
-        body.style.backgroundColor = 'black';
-        body.style.color = 'white';
-        // Change styles of other elements if needed
-        document.querySelectorAll('.content').forEach(el => {
-            el.style.backgroundColor = 'black';
-            el.style.color = 'white';
-        });
-    }
-})
-
   return (
     <div className="bg-white_background_bobby px-6">
       <div className ="mode-switcher">
