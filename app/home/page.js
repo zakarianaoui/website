@@ -25,6 +25,7 @@ import { useState } from "react";
 import Testimonials from "@/components/home/testimonials";
 import Faq from "@/components/home/faq";
 import Footer from "@/components/footer";
+import AnnouncementBanner from "@/components/AnnouncementBanner";
 
 export default function CV() {
   const [open, setOpen] = useState(false);
@@ -53,7 +54,7 @@ export default function CV() {
         title="Why should you contact us">
         We are a team of students who learned how to code, and we want to help you create your project.
       </SectionTitle>
-
+      <AnnouncementBanner text=" Nouvelle annonce importante ! La cérémonie de remise IDA le 7 juin à la cafeteria de la manufacture." />
       <Caroussel/>
 
       <div className="container mx-auto p-8 xl:px-0 mb-20 flex flex-wrap lg:flex-nowrap lg:gap-10 ">

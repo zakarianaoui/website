@@ -10,13 +10,17 @@ export default function Competences() {
           <ArrowLeftIcon className="absolute w-10 h-10 text-blue-500 top-5 left-10" />
         </Link>
         <div className="font-extrabold position:relative right:10px">
+
           <h1 className="my-8 text-center text-5xl font-extrabold md:text-6xl lg:text-7xl">
+
             Guide d&apos;analyse du dashboard
           </h1>
           <h1 className="my-8 text-2xl font-bold md:text-3xl lg:text-4xl">
             Contexte
           </h1>
+
           <p className="my-8 text-base md:text-base lg:text-base font-normal">
+
              Cette matrice de compétences a été remplie en auto-notation par les étudiants en début d&apos;année et a pour but d&apos;être réévalués plusieurs fois tout au long de l&apos;année.
               <br></br>
               Chaque compétence a été notée de 1 à 5.
@@ -29,26 +33,28 @@ export default function Competences() {
           <h1 className="my-8 text-2xl font-bold md:text-3xl lg:text-4xl">
             Description des onglets
           </h1>
-          <ul class="list-square ml-8">
+          <ul className="ml-8 list-square">
               <br></br>
               <li className="my-8 text-xl md:text-xl lg:text-xl">Total :</li>
+
               <p className="my-8 text-base md:text-base lg:text-base font-normal">
+
                 Cette page permet d&apos;avoir un aperçu des notes cumulées des étudiants dans chaque catégorie.
                 Cela permet de voir dans quelles compétences les étudiants se sentent le plus à l&apos;aise.
               </p>
               <li className="my-8 text-xl md:text-xl lg:text-xl">Erudits :</li>
-              <p className="my-8 text-base md:text-base lg:text-base font-normal">
+              <p className="my-8 text-base font-normal md:text-base lg:text-base">
                 Cet onglet offre la possibilité de voir la distribution du niveau de compétences des élèves pour la catégorie souhaitée.
                 De plus, le tableau à gauche permet de voir les élèves les plus à l&apos;aise avec la ou les technologies sélectionnées.
               </p>
               <li className="my-8 text-xl md:text-xl lg:text-xl">Individuels :</li>
-              <p className="my-8 text-base md:text-base lg:text-base font-normal">
+              <p className="my-8 text-base font-normal md:text-base lg:text-base">
                 Cet onglet, quant à lui, offre une vision centrée sur la progression des élèves dans le temps.
                 Sur la gauche, un graphique montre les compétences cumulées de l&apos;étudiant selon les techniques. Ce qui permet de faire ressortir les points forts de l&apos;étudiant.
                 <br></br>
                 Le graphique de gauche permet de visualiser la progression d&apos;un étudiant dans le temps. Il est possible de choisir une technique en particulier.
               </p>
-              <p className="my-8 text-base md:text-base lg:text-base font-normal">
+              <p className="my-8 text-base font-normal md:text-base lg:text-base">
                 Les volets de filtres sont liés aux différents onglets.
               </p>
           </ul>
