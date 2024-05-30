@@ -31,10 +31,6 @@ export default function CV() {
 
   return (
     <div className="bg-white_background_bobby px-6">
-      <div className ="mode-switcher">
-      <button id="light-mode-btn">Mode Clair</button>
-      <button id="dark-mode-btn">Mode Sombre</button>
-      </div>
       <div className="relative">
         <div className="fixed right-0 top-0 h-20 w-20 rounded-bl-full bg-brown_bobby" />
         <div className="fixed right-0 top-0 pr-4 pt-4">
