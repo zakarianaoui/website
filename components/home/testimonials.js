@@ -17,47 +17,50 @@ import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image'
 
 
-const PrevArrow = ({ className, style, onClick }) => (
-  <div
-      className={className}
-      style={{
+const NextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={`slick-next ${className}`}
+        style={{
           ...style,
-          display: "block",
-          // background: "rgba(0, 0, 0, 0.7)",
-          color: "white",
-          borderRadius: "50%",
-          padding: "10px",
-          border: "none",
-          outline: "none",
-          fontSize: "31px",
-          zIndex: 2,
-          left: "0px",
-          // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"
-      }}
-      onClick={onClick}
-  />
-);
-
-const NextArrow = ({ className, style, onClick }) => (
-  <div
-      className={className}
-      style={{
+          display: 'block',
+          width: '18px',
+          height: '18px',
+          background: 'black',
+          right: '-15px',
+          zIndex: '1',
+          borderRadius: '50%',
+          transform: 'translateY(-50%)',
+          cursor: 'pointer',
+        }}
+        onClick={onClick}
+      />
+    );
+  };
+  
+  const PrevArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={`slick-prev ${className}`}
+        style={{
           ...style,
-          display: "block",
-          // background: "rgba(0, 0, 0, 0.7)",
-          color: "white",
-          borderRadius: "50%",
-          padding: "10px",
-          border: "none",
-          outline: "none",
-          fontSize: "31px",
-          zIndex: 2,
-          right: "40px",
-          // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"
-      }}
-      onClick={onClick}
-  />
-);
+          display: 'block',
+          width: '18px',
+          height: '18px',
+          background: 'black',
+          left: '-15px',
+          zIndex: '1',
+          borderRadius: '50%',
+          transform: 'translateY(-50%)',
+          cursor: 'pointer',
+        }}
+        onClick={onClick}
+      />
+    );
+  };
+  
 
 const Caroussel_projet = (props) => {
     const settings = {
