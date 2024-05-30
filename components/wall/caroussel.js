@@ -5,19 +5,19 @@ import 'slick-carousel/slick/slick-theme.css';
 import SectionTitle from "@/components/home/sectionTitle";
 import Mirio from "@/public/image/wall/camille-mirio.jpg";
 import Pierre from "@/public/image/wall/margaux-pierre.jpg";
-import Marouane from "@/components/wall/images/Marouane.jpeg";
+import Marouane from "@/components/wall/image/Marouane.jpeg";
 
 
 const Caroussel = (props) => {
     const [teamMembers, setTeamMembers] = React.useState([
         {
             name: "Marouane KHOUFID",
-            image: "@/components/wall/images/Marouane.jpeg",
+            image: "@/components/wall/image/Marouane.jpeg",
             linkedin: "https://www.linkedin.com/in/khoufid/"
         },
         {
             name: "Camille CABRI",
-            image: "/images/Camille_Cabri.jpeg",
+            image: "/image/Camille_Cabri.jpeg",
             linkedin: "https://www.linkedin.com/in/camille-cabri-0515a019a/" 
         },
         {
@@ -27,12 +27,12 @@ const Caroussel = (props) => {
         },
         {
             name: "Margaux PIERRE",
-            image: "/images/Margaux.jpeg",
+            image: "/image/Margaux.jpeg",
             linkedin: "https://www.linkedin.com/in/margaux-pierre-627353218/"
         },
         {
             name: "Camille MIRIO",
-            image: "/images/Camille_Mirio.jpeg",
+            image: "/image/Camille_Mirio.jpeg",
             linkedin: "https://www.linkedin.com/in/camille-mirio-80bb74257/"
         },
         {
@@ -42,87 +42,87 @@ const Caroussel = (props) => {
         },
         {
             name: "Hind NAOUI",
-            image: "/images/Hind.jpeg",
+            image: "/image/Hind.jpeg",
             linkedin: "https://www.linkedin.com/in/hind-naoui-6275aa21b/"
         },
         {
             name: "Diego FIEUX",
-            image: "/images/Diego.jpeg",
+            image: "/image/Diego.jpeg",
             linkedin: "https://www.linkedin.com/in/diego-fieux-b666b2239/"            
         },
         {
             name: "Mathieu VASSAL",
-            image: "/images/Mathieu.jpeg",
+            image: "/image/Mathieu.jpeg",
             linkedin: "https://www.linkedin.com/in/mathieu-vassal/"
         },
         {
             name: "Tessa ROCHÉ-QUARRÉ",
-            image: "/images/Tessa.jpeg",
+            image: "/image/Tessa.jpeg",
             linkedin: "https://www.linkedin.com/in/tessa-roche-quarre-777880220/"
         },
         {
             name: "Zhanhe ZHANG",
-            image: "/images/Zhang.jpeg",
+            image: "/image/Zhang.jpeg",
             linkedin: "https://www.linkedin.com/in/%E5%B1%95%E8%B5%AB-%E5%BC%A0-76571422a/"
         },
         {
             name: "Romaric REBOUYS",
-            image: "/images/Romaric.jpeg",
+            image: "/image/Romaric.jpeg",
             linkedin: "https://www.linkedin.com/in/romaric-rebouys-20b1b4253/"
         },
         {
             name: "Arthur FRINDEL",
-            image: "/images/Arthur.jpeg",
+            image: "/image/Arthur.jpeg",
             linkedin: "https://www.linkedin.com/in/arthurfrindel580515152/"
         },
         {
             name: "Kiady RAJOELISOLO",
-            image: "/images/Kiady.jpeg",
+            image: "/image/Kiady.jpeg",
             linkedin: "https://www.linkedin.com/in/kiady-rajoelisolo/"
         },
         {
             name: "Florian BELLUS",
-            image: "/images/Florian.jpeg",
+            image: "/image/Florian.jpeg",
             linkedin: "https://www.linkedin.com/in/florian-bellus-b51255252/"
         },
         {
             name: "Adrien SAVOYE",
-            image: "/images/Adrien.jpeg",
+            image: "/image/Adrien.jpeg",
             linkedin: "https://www.linkedin.com/in/adrien-savoye/"
         },
         {
             name: "Yucel Can CIRACI",
-            image: "/images/Can.jpeg",
+            image: "/image/Can.jpeg",
             linkedin: "https://www.linkedin.com/in/can-ciraci-85b206235/"
         },
         {
             name: "Rémi GARCIA",
-            image: "/images/Rémi.jpeg",
+            image: "/image/Rémi.jpeg",
             linkedin: "https://www.linkedin.com/in/r%C3%A9mi-garcia-31t12r/"
         },
         {
             name: "Augustin LAURENT",
-            image: "/images/Augustin.jpeg",
+            image: "/image/Augustin.jpeg",
             linkedin: "https://www.linkedin.com/in/augustin-laurent-204ab6196/"
         },
         {
             name: "Hugo BOUSSARD",
-            image: "/images/Hugo.jpeg",
+            image: "/image/Hugo.jpeg",
             linkedin: "https://www.linkedin.com/in/hugo-boussard-a22621184/"
         },
         {
             name: "Gabriel SAUNDERS",
-            image: "/images/Gabriel.jpeg",
+            image: "/image/Gabriel.jpeg",
             linkedin: "https://www.linkedin.com/in/gabriel-saunders-94982b18b/"
         },
         {
             name: "Mohamed BEDJAOUI",
-            image: "/images/Mohamed.jpeg" ,
+            image: "/image/Mohamed.jpeg" ,
             linkedin: "https://www.linkedin.com/in/gabriel-saunders-94982b18b/"
         },
         {
             name: "Ibrahima BARRY",
-            image: "/images/Ibrahima.jpeg",
+            image: "/image/Ibrahima.jpeg",
             linkedin: "https://www.linkedin.com/in/ibrahima-barry99/"
         },
         {
