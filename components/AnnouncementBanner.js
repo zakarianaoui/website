@@ -22,7 +22,7 @@ function AnnouncementBanner({ text }) {
           right: 0,
           width: "100%",
           backgroundColor: "#95202A",
-          color: "#dea34e",
+          color: "#FFFFFF",
           padding: "0px",
           textAlign: "center",
           zIndex: 1000,
