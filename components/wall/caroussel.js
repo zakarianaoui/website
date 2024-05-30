@@ -7,6 +7,7 @@ import Mirio from "@/public/image/wall/camille-mirio.jpg";
 import Pierre from "@/public/image/wall/margaux-pierre.jpg";
 
 
+
 const Caroussel = (props) => {
     const [teamMembers, setTeamMembers] = React.useState([
         {
@@ -192,6 +193,7 @@ const Caroussel = (props) => {
                     title="Meet our team">
                 </SectionTitle>
                 <div className="slider-container">
+
                     <Slider {...settings} id="slider">
                         {teamMembers.map((member) => (
                             <div key={member.name} className="text-center">

@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export default function Competences() {
   return (
+
     <div className="h-screen">
       <div className="flex-col items-center h-full p-5 text-justify text-gray-700 lg:p-20">
         <Link href={'/'}>
           <ArrowLeftIcon className="absolute w-10 h-10 text-blue-500 top-5 left-10" />
         </Link>
-       
         <div className="font-extrabold position:relative right:10px">
           <h1 className="my-8 text-center text-5xl font-extrabold md:text-6xl lg:text-7xl">
             Guide d&apos;analyse du dashboard
